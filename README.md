@@ -3,6 +3,9 @@
 ### luanch project
 install git
 ```
+winget install Git.Git (for windows)
+
+brew install git (for mac)
 ```
 
 after pull the code to local
@@ -11,7 +14,9 @@ git clone git@github.com:chankamlam/CMXAPI.git
 ```
 
 installed the dotnet
-https://github.com/dotnet/installer/blob/main/README.md
+```
+check https://github.com/dotnet/installer/blob/main/README.md
+```
 
 install ef
 ```
