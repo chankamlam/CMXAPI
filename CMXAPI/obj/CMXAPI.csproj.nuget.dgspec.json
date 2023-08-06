@@ -1,27 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kenchan/Projects/CMXAPI/CMXAPI/CMXAPI.csproj": {}
+    "C:\\Users\\chank\\OneDrive\\Desktop\\CMXAPI\\CMXAPI\\CMXAPI.csproj": {}
   },
   "projects": {
-    "/Users/kenchan/Projects/CMXAPI/CMXAPI/CMXAPI.csproj": {
+    "C:\\Users\\chank\\OneDrive\\Desktop\\CMXAPI\\CMXAPI\\CMXAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kenchan/Projects/CMXAPI/CMXAPI/CMXAPI.csproj",
+        "projectUniqueName": "C:\\Users\\chank\\OneDrive\\Desktop\\CMXAPI\\CMXAPI\\CMXAPI.csproj",
         "projectName": "CMXAPI",
-        "projectPath": "/Users/kenchan/Projects/CMXAPI/CMXAPI/CMXAPI.csproj",
-        "packagesPath": "/Users/kenchan/.nuget/packages/",
-        "outputPath": "/Users/kenchan/Projects/CMXAPI/CMXAPI/obj/",
+        "projectPath": "C:\\Users\\chank\\OneDrive\\Desktop\\CMXAPI\\CMXAPI\\CMXAPI.csproj",
+        "packagesPath": "C:\\Users\\chank\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chank\\OneDrive\\Desktop\\CMXAPI\\CMXAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/kenchan/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\chank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
-          "/usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,6 +51,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
             },
             "MySql.EntityFrameworkCore": {
               "target": "Package",
@@ -74,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

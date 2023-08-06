@@ -1,6 +1,6 @@
 ﻿using CMXAPI.Data;
 using Microsoft.AspNetCore.Http;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.SqlServer;
 using System.IO;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,13 +10,13 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // add DBCTX
-var conStr = builder.Configuration.GetConnectionString("MysqlConnectionString");
+var conStr = builder.Configuration.GetConnectionString("MSSQLConnectionString");
 
 builder.Services.AddDbContext<DBCTX>(opts =>
 {
     if (!string.IsNullOrEmpty(conStr))
     {
-        opts.UseMySQL(conStr);
+        opts.use(conStr);
     }
 });
 var app = builder.Build();

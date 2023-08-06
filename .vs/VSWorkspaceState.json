@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CMXAPI",
+    "\\CMXAPI\\obj",
+    "\\CMXAPI\\obj\\Debug",
+    "\\CMXAPI\\obj\\Debug\\net7.0",
+    "\\CMXAPI\\obj\\Debug\\net7.0\\refint",
+    "\\CMXAPI\\obj\\Debug\\net7.0\\staticwebassets",
+    "\\CMXAPI\\obj\\Release",
+    "\\CMXAPI\\obj\\Release\\net7.0",
+    "\\CMXAPI\\obj\\Release\\net7.0\\ref"
+  ],
+  "SelectedNode": "\\CMXAPI\\obj\\Release",
+  "PreviewInSolutionExplorer": false
+}
